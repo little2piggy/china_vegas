@@ -1,0 +1,319 @@
+html{overflow: -moz-scrollbars-vertical !important;}
+
+body
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	color:#3e3e29;
+	width:100%;
+	height:100%;
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: normal  !important;
+	background:#babd9b;
+	line-height: 16pt;
+}
+.bgwhite{
+	background-color:#FFF;
+}
+#head_line{
+	position:absolute;
+	top: 2px;
+	left: 175px;
+}
+#head_main{
+	position:absolute;
+	right:0px;
+	top: 81px;
+	width:650px;
+	height: 290px;
+	background-image:url(../pix/head_main.png);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+.flash{
+	margin-right: 16px;
+}
+
+#head_line_2{
+	position:absolute;
+	top: 0px;
+	left: 146px;
+}
+#head_main_2{
+	position:absolute;
+	right:0px;
+	top: 87px;
+	background-image:url(../pix/2head_main.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.main_word{
+	float: left;
+	margin-left: 65px;
+	margin-right: 65px;
+	margin-bottom: 65px;
+	font-weight: normal;
+}
+.head {
+	position: absolute;
+ 	top:50px;;
+ 	left: 680px;
+	font-size: 11px;
+}
+#logo
+{
+	position:relative;
+	top: 32px;
+	left: 27px;
+	height:135px;
+}
+
+A.topnav:link {text-decoration: none; color:#327045;}
+A.topnav:visited {text-decoration: none;  color:#327045;}
+A.topnav:active {text-decoration: none;}
+A.topnav:hover {text-decoration: underline; color: #3e3e29; }
+#wraper {
+ 	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:850px !important;
+}
+#container
+{
+	float: left;
+	width: 100%;
+	background: #c6cd7e url(../pix/menubg.png) repeat-y 68% 0;
+}
+
+#mainbody {
+	float: right;
+	clear:right;
+	right: 0px;
+	width: 613px;
+	background-color: #fff;
+}
+
+#main_word{
+	position: relative;
+	top: 600px;
+	width: 100%;
+}
+
+#menu{
+	float:left;
+	width: 237px;
+	text-align:left;
+	background-color: #c6cd7e;
+}
+
+.menuitem { 
+	background-image:url(../pix/menu_bar.png);
+	background-position:top left;
+	background-repeat: no-repeat;
+	height: 34px;
+	width: 237px;
+}
+
+.menu_link{
+	top:5px;
+	position:relative;
+	text-align:center;
+}
+A.menu:link {text-decoration: none; color:#fff;}
+A.menu:visited {text-decoration: none; color:#fff;}
+A.menu:active {text-decoration: none; color:#fff;}
+A.menu:hover {text-decoration: none; color: #3e3e29; }
+
+A.menu_v:link {text-decoration: none; color:#3e3e29;}
+A.menu_v:visited {text-decoration: none; color:#3e3e29;}
+A.menu_v:active {text-decoration: none; color:#3e3e29;}
+A.menu_v:hover {text-decoration: none; color: #3e3e29; }
+
+
+#footer {	
+	clear:both;
+	background-position:bottom center;
+	background-image:url(../pix/footer_logo.png);
+	background-repeat: no-repeat;
+	top:30px;
+	margin-bottom: auto;
+	width: 850px;
+	position: relative;
+}
+.foot_link{
+	margin-top: 25px;
+	bottom: 25px;
+	width:16.66%;
+	float:left;
+	text-align: center;
+}
+.foot_rest{
+	bottom: 25px;
+	float:left;
+	text-align: center;
+}
+A.footer:link {text-decoration: none; color:#3e3e29;}
+A.footer:visited {text-decoration: none; color:#3e3e29;}
+A.footer:active {text-decoration: none; color:#3e3e29;}
+A.footer:hover {text-decoration: underline; color: #327045; }
+.foot_line{
+	background-image:url(../pix/foot_line.png);
+	background-repeat:repeat-x;
+	width:850px;
+}
+#foot_address{
+	margin-left: 150px;
+	margin-right: 120px;
+	margin-bottom: 0;
+	margin-top: 30px;
+	line-height: 18pt;
+	font-size: 11px;
+}
+
+.errdiv{
+	color:#8f3300;
+	font-size:12px;
+}
+.rt_main{ 		/*restaurant left*/
+	color: #6b742a;
+	width: 96%;
+}
+.btn
+{
+  font: 84%;
+  border: 0px;
+  background:#FFF;
+}
+
+.box {
+	margin: 0px; 
+	padding: 0px; 
+	height:14px;
+	vertical-align:text-top;
+	vertical-align:top;
+	align: right;
+	font-size: 11px;
+   	color:#6b742a;
+}
+.boxselect{
+   padding: 0px;
+   height:18px;
+   font-size: 11px;
+   color:#6b742a;
+   vertical-align:text-top;
+ }
+ div.ui-datepicker{
+ 	font-size:88%;
+}
+.msg{
+	margin-left:30px;
+	margin-right:30px;
+	margin-bottom: 70px;
+	margin-top: 30px;
+}
+.so_ttl{
+	background-image:url(../pix/so_title.png);
+	width:207px;
+	height:156px;
+	text-align: center;
+	
+}
+A.so_ttl_l:link {text-decoration: none; color:#7F391A;}
+A.so_ttl_l:visited {text-decoration: none; color:#7F391A;}
+A.so_ttl_l:active {text-decoration: none; color:#7F391A;}
+A.so_ttl_l:hover {text-decoration: none; color: #C43B00; }
+
+.so_ttl_CN{
+	font-size: 21px;
+	top: 113px;
+}
+
+.so_ttl_EN{
+	font-size: 18px;
+	top: 112px;
+}
+.so_ttl_text{
+	position:relative;
+}
+
+.room_div
+{
+	background-image:url(../pix/display_room_div.png);
+	background-repeat:repeat-x;
+	background-position:center;
+	
+}
+.check_out{
+	margin: 20px;
+	width: 95%;
+	clear:both;
+}
+A.rule:link {text-decoration:underline; color:#336633;}
+A.rule:visited {text-decoration: underline;  color: #336633;}
+A.rule:active {text-decoration: underline; color:#336633;}
+A.rule:hover {text-decoration: underline; color:#cc9900; }
+.hotel_site{
+	background-image:url(../pix/menu_to_sites.png);
+	background-repeat: no-repeat;
+	width: 153px;
+	height: 22px;
+	text-align:center;
+	margin-left: 230px;
+	vertical-align:text-top;
+	color: #896418;
+	font-weight:bold;
+	letter-spacing: 1px;
+	margin-bottom: 3px;
+}
+A.hotelsite:link {text-decoration:none; color:#896418;}
+A.hotelsite:visited {text-decoration: none;  color: #896418;}
+A.hotelsite:active {text-decoration: none; color:#896418;}
+A.hotelsite:hover {text-decoration: none; color:#666; }
+
+.my_pages
+{
+	word-spacing: normal;
+	letter-spacing: 0.5px;
+	line-height: 16pt;
+	margin-top: 20px;
+	margin-bottom:60px;
+}
+.round_edge{
+	background-color: #f0f1dc;
+	width: 100%;
+	text-align: left;
+	vertical-align:middle;
+	border:0px;
+}
+.rest_left{
+	margin-left: 20px;
+	vertical-align:text-top top;
+}
+.rest_btn{
+	width:116px;
+	height: 32px;
+	background-image:url(../pix/buton.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+	text-align:center;
+	padding-top:8px;
+	font-weight: bold;
+}
+A.rest_clr:link {text-decoration: none; color:#3e3e29;}
+A.rest_clr:visited {text-decoration: none; color:#3e3e29;}
+A.rest_clr:active {text-decoration: none;}
+A.rest_clr:hover {text-decoration: none; color: #7F391A; }
+.sub_btn{
+	width:80px;
+	height: 20px;
+	background-image:url(../pix/sub_button.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+	text-align:center;
+	font-weight: bold;
+}

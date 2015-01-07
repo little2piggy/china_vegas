@@ -1,0 +1,83 @@
+	@charset "utf-8";
+/* CSS Document */
+html{overflow: -moz-scrollbars-vertical !important;}
+
+body
+{
+	font-size:12px;
+	word-spacing: normal;
+	letter-spacing: 0.5px;
+	line-height: 16pt;
+	margin:0px;
+	background-color:#babd9b;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.homeTitle
+{
+	font-size: 14px;
+	letter-spacing: 3px;
+	font-weight: 800;
+}
+
+.welcome
+{
+	font-size:16px;
+	color: #4255A5;
+	letter-spacing: 3px;
+	font-weight: 800;
+	}
+.body_m
+{
+	background-color:#fff;
+}
+.td_top
+{
+	background-image:url(../img/adminMain.png);
+	background-repeat:repeat-x;
+	background-position:top;
+	vertical-align:top;
+	margin-top:0px;
+	top: 0;
+	right:0;
+	left:0;
+	
+}
+
+.btn
+{
+  font: bold 84%;
+  border: 1px solid;
+  border-color:#05df0a; 
+}
+A.home:link { font-size:14px; color:#39F;}
+A.home:visited { font-size:14px; color:#39F;}
+A.home:active { font-size:14px;}
+A.home:hover { text-decoration:none; font-size:14px; }
+
+.breakword {
+  word-wrap: break-word;
+}
+.errDiv
+{
+	color:#C00;
+}
+.errPos{
+	position: absolute;
+	left:400px;
+	top:200px;
+	}
+.home_main{
+	width:830px; 
+	clear:both; 
+	margin-top:30px;
+}
+.calday{
+    background-color:#d3dce3;
+}
+.calSp{
+	background-color:#FFC;
+}
+.calBOD{
+	background-color:#FC6;
+
+}

@@ -1,0 +1,42 @@
+.menuitem_2 { 
+	background-image:url(../pix/2menu_bar.png);
+	background-position:right top;
+	background-repeat: no-repeat;
+	height: 32px;
+	width: 188px;
+}
+.sub_menu{
+	display:none;
+	text-align:left;
+	padding-left:65px;
+	padding-right:12px;
+	line-height: 12px;
+	word-spacing: 0.1em;
+}
+A.menu2:link{	text-decoration:none;	color: #3e3e29;}
+A.menu2:visited {text-decoration: none; color:#3e3e29;}
+A.menu2:active {text-decoration: none; color:#666;}
+A.menu2:hover {	text-decoration:none;	color: #666;}
+.wedr
+{
+	width: 95%;
+	text-align:center;
+	margin-left:6px;
+	margin-right: 15px;
+}
+.so_ttl2{
+	background-image:url(../pix/2so_title.png);
+	width:179px;
+	height:136px;
+	/*color:#7F391A;  #E7D885*/
+	text-align: center;
+	margin: 15px;
+}
+.so_ttl_CN2{
+	font-size: 16px;
+	top: 96px;
+}
+.so_ttl_EN2{
+	font-size: 15px;
+	top: 97px;
+}
